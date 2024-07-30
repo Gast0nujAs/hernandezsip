@@ -23,7 +23,7 @@ export const ContentHome = () => {
 
 
   return (
-    <div className='w-[655px] h-[610px]  overflow-hidden m-auto relative'>
+    <div className='sm:flex-1 md:flex md:w-[655px] md:h-[610px] sm:w-[350px] sm:h-[320px] overflow-hidden m-auto relative'>
             <div className='flex transition-transform  ease-in-out duration-500'
                 style={{ transform: `translateX(-${current * 100}%)` }}>
                 {data.map((s) => {

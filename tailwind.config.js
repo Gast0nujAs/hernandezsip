@@ -12,6 +12,13 @@ module.exports = {
         "Space" : ['Space Grotesk', 'sans-serif'],
         
       },
+      screens: {
+        'sm': '360px',
+        'md': '668px',
+        'lg': '970px',
+        'xl': '1440px',
+      },
+      
     },
   },
   plugins: [animations],

@@ -4,10 +4,11 @@ import React from 'react'
 
 export const VideoHome = () => {
   return (
-    <div className="flex flex-cols-2 ">
+    <div className="lg:flex  sm:pt-10 sm:border-t-2">
         
-        <div className="flex flex-col pt-16 px-20" >
-            <h4 className="text-6xl font-bold uppercase items-center font-Space">¿por que construir con paneles sip?</h4>
+        <div className=" md:pt-16 md:px-20" >
+            <h4 className="lg:text-6xl sm:text-lg sm:text-center md:text-4xl font-bold uppercase items-center
+            sm:pb-6  font-Space">¿por que construir con paneles sip?</h4>
         </div>
         <div className="flex flex-col  px-20">
             <Videoplay />
