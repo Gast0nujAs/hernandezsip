@@ -26,9 +26,9 @@ export const Contacto = () => {
           height: '250px',
         }}>
 
-        <h1 className='text-5xl sm:text-7xl  font-Anton pt-12 text-white '>Contacto</h1>
+        <h1 className='md:text-5xl sm:text-2xl  font-Anton pt-12 text-white '>Contacto</h1>
       </div>
-      <form ref={form} onSubmit={sendEmail} className='grid grid-cols-1 gap-y-6 gap-x-4 w-1/2 mx-auto border-2  rounded p-10 mt-10 mb-10  '>
+      <form ref={form} onSubmit={sendEmail} className='grid grid-cols-1 gap-y-6 gap-x-4 md:w-1/2 sm:w-3/4 mx-auto border-2  rounded p-10 mt-10 mb-10  '>
         <div className='grid grid-cols-1 gap-y-6 gap-x-4 font-Space'>
           <label name="name">Name:</label>
           <input
