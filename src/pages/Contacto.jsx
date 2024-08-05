@@ -5,9 +5,9 @@ export const Contacto = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     console.log(form)
-    const serviceID = "service_xsu6yum";
-    const templateID = "template_7bbn4nu";
-    const apiKey = "yBLYWZSsGn-5VB952";
+    const serviceID = "service_1jahyy9";
+    const templateID = "template_uxx9tsi";
+    const apiKey = "F1etN_XmZJW7J8btx";
     emailjs.sendForm(serviceID, templateID, form.current, apiKey)
       .then((result) => {
         console.log(result.text);
@@ -38,7 +38,7 @@ export const Contacto = () => {
 
           />
         </div>
-        <div className='grid grid-cols-1 gap-y-6 gap-x-4 '>
+        <div className='grid grid-cols-1 gap-y-20 gap-x-4 pt-6'>
           <label name="email">Email:</label>
           <input
 

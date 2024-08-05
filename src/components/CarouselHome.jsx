@@ -1,8 +1,11 @@
 import { ContentHome } from "./ContentHome";
 
 import React from 'react'
+import { useNavigate } from "react-router-dom";
+
 
 export const CarouselHome = () => {
+    const navigate = useNavigate();
   return (
     <div className="lg:flex lg:pt-20 lg:pb-20 sm:pt-10 ">
         <div className="px-20">
@@ -26,6 +29,8 @@ export const CarouselHome = () => {
                 <p className="pb-4 sm:text-[14px] md:text-lg sm:mx-20 md:mx-0">- Terminación de techos: membrana, chapas, tejas, etc.</p>
                 <p className="pb-4 sm:text-[14px] md:text-lg sm:mx-20 md:mx-0">- Terminación de paredes: revoque plástico, piedra, madera, etc..</p>
             </div>
+            <button onClick={() => navigate("/contacto")} type={"button"} className="justify-self-center mx-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 
+            uppercase text-xl font-Lato">hace tu presupuesto a medida</button>
         </div>
         
         
