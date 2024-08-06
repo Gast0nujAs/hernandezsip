@@ -21,7 +21,7 @@ export const ContentService = () => {
         </p>
         <div className='flex w-full pt-10'>
           <button onClick={() => navigate("/contacto")} type={"button"} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 
-            uppercase text-xl font-Lato">hace tu presupuesto a medida</button>
+            uppercase text-xl font-Lato">pedí tu presupuesto a medida</button>
         </div>
       </div>
 
