@@ -29,8 +29,8 @@ export const CarouselHome = () => {
                 <p className="pb-4 sm:text-[14px] md:text-lg sm:mx-20 md:mx-0">- Terminación de techos: membrana, chapas, tejas, etc.</p>
                 <p className="pb-4 sm:text-[14px] md:text-lg sm:mx-20 md:mx-0">- Terminación de paredes: revoque plástico, piedra, madera, etc..</p>
             </div>
-            <button onClick={() => navigate("/contacto")} type={"button"} className="justify-self-center mx-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 
-            uppercase text-xl font-Lato sm:mx-4">pedí tu presupuesto a medida</button>
+            <button onClick={() => navigate("/contacto")}  className="justify-self-center mx-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 
+            uppercase text-xl font-Lato sm:mx-20">pedí tu presupuesto a medida</button>
         </div>
         
         

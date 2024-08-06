@@ -7,7 +7,7 @@ export const ContentService = () => {
   return (
     <div className='md:flex md:pt-16 sm:pt-10'>
       <div className=" md:pt-6 ">
-        <img src={imagen} alt="Construccion paneles sip" className='md:w-[650px] md:h-[500px] sm:w-[400px] sm:h-[300px] m-auto' />
+        <img src={imagen} alt="Construccion paneles sip" className='md:w-[650px] md:h-[500px] sm:w-[300px] sm:h-[300px] sm:mx-auto' />
       </div>
 
       <div className=' px-8'>

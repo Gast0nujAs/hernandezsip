@@ -15,7 +15,7 @@ export const Nosotrosimg = () => {
             </ul>
         </div>
 
-        <div className=" md:pt-16 sm:pt-10 sm:w-[400px] md:w-[650px] md:ml-10  " >
+        <div className=" md:pt-16 sm:pt-10 sm:w-[300px] sm:mx-auto md:mx-0 md:w-[650px] md:ml-10  " >
             <img src={imgNosotros} alt="img sipcor" />
         </div>
     </div>

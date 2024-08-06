@@ -13,6 +13,7 @@ import { Contacto } from './pages/Contacto';
 
 function App() {
   return (
+    <div className='mx-auto'>
     <BrowserRouter>
       <Header />
       <Routes>
@@ -22,6 +23,7 @@ function App() {
       </Routes> 
       <Footer />
     </BrowserRouter>
+    </div>
   );
 }
 

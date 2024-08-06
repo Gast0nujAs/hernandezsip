@@ -39,7 +39,7 @@ export const Navbar = () => {
       <div>
         {open && content}
       </div>
-      <button className="md:hidden block transition text-white  right-10 top-6 " onClick={handleClick} >
+      <button className="md:hidden  text-white  top-6 " onClick={handleClick} >
         {open ? <Hamburger color='white' toggle={setOpen} toggled={open}  /> : <Hamburger color='white' toggle={setOpen} toggled={open} />}
       </button>
 
