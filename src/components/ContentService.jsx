@@ -1,5 +1,5 @@
 import React from 'react'
-import imagen from "../assets/img/arquitectur.jpg";
+import imagen from "../assets/img/sipcordeNoche.jpeg";
 import { useNavigate } from 'react-router-dom';
 
 export const ContentService = () => {

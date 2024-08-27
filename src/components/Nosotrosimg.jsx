@@ -1,5 +1,5 @@
 import React from 'react'
-import imgNosotros from "../assets/img/nosotros.png";
+import imgNosotros from "../assets/img/placassip.jpeg";
 export const Nosotrosimg = () => {
   return (
     <div className='md:flex md:pb-20 sm:pb-10'>
@@ -15,7 +15,7 @@ export const Nosotrosimg = () => {
             </ul>
         </div>
 
-        <div className=" md:pt-16 sm:pt-10 sm:w-[300px] sm:mx-auto md:mx-0 md:w-[650px] md:ml-10  " >
+        <div className=" md:pt-16 sm:pt-10 sm:w-[250px]  sm:mx-auto md:mx-0 md:w-[400px] md:h-[200px] md:ml-10   " >
             <img src={imgNosotros} alt="img sipcor" />
         </div>
     </div>
