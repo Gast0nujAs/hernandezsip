@@ -33,7 +33,7 @@ export const Contacto = () => {
         <div className='flex sm:flex-col md:flex-row justify-center  md:mt-10 items-center md:gap-20'>
           <div className='flex flex-col items-center sm:py-2 md:py-0 '>
             <MdOutlineEmail size={50} color="white" />
-            <p className='text-white flex items-center font-Space '>info@jchernandezsip.com</p>
+            <p className='text-white flex items-center font-Space '>info@paneles-sip-cordoba.com.ar</p>
           </div>
           <div className='flex flex-col items-center'>
             <GiSmartphone size={50} color="white" />
